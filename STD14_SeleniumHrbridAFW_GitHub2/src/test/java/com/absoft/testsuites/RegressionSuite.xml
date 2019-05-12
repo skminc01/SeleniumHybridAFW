@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite" >
+  <test name="MyAccount Feature"  >
+    <classes>
+       <class name="com.absoft.tests.MyAccountPageTest" /> 
+    </classes>
+  </test>
+    <test name="HomePage Feature"  >
+    <classes>
+       <class name="com.absoft.tests.HomePageTest" /> 
+    </classes>
+  </test>
+
+</suite>
